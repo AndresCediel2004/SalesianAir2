@@ -1,0 +1,17 @@
+{
+ "organizacion": "SalesinAir (aerolínea de pasajeros)",
+ "necesidad": "Consultar por código la información de cada vuelo y registrar a los pasajeros que viajan en él, para saber cuántos asientos quedan",
+ "quien_decide": "Jefe de operaciones de vuelo",
+ "hardware": "Computadores del mostrador de la aerolínea y el servidor donde corre la app",
+ "software": "App Solara, módulo datos.py y el motor SQLite (tablas pasajeros, aviones, vuelos y reservas)",
+ "datos": "Una fila de reservas = un pasajero con asiento en un vuelo; cada vuelo usa un avión de la flota",
+ "personas": "Agente de mostrador que registra, analista que consolida, jefe de operaciones que decide",
+ "tic": "La red de la aerolínea y el navegador por el que se abre la app",
+ "proceso": [
+  "El agente consulta un vuelo, una reserva o a un pasajero por su código o documento",
+  "Registra al pasajero y su asiento",
+  "La app consolida la ocupación por vuelo",
+  "El jefe de operaciones revisa el reporte y ajusta la operación"
+ ],
+ "tipo": "TPS y MIS"
+}

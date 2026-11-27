@@ -1,0 +1,5 @@
+{"tabla_hechos": "reservas",
+ "consulta": ["consultar", ["SA101"]],
+ "reporte": ["reportar", ["BOG"]],
+ "registro_valido": ["registrar", ["SA101", "1070707070", "Laura Martínez", "laura.martinez@example.com", "14C"]],
+ "registro_invalido": ["registrar", ["ZZ999", "1070707070", "Laura Martínez", "laura.martinez@example.com", "14C"]]}

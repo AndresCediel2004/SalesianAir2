@@ -1,0 +1,6 @@
+solara==1.66.3
+solara-assets==1.58.2
+ipyvue==1.13.0
+ipyvuetify==1.12.0
+pandas==3.0.5
+matplotlib==3.11.1
